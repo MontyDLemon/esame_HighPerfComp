@@ -1,3 +1,5 @@
 #installo componenti
 
-sudo apt install -y pacemaker corosync pcs drbd-pacemaker drbd-udev drbd-utils haveged
+#drbd-pacemaker e drbd-udev non ci sono su ubuntu ma dovrebbero essere compreso nel pacchetto dbrd-utils
+
+sudo apt install -y pacemaker corosync pcs drbd-utils haveged
