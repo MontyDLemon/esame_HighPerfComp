@@ -11,4 +11,4 @@ sudo iptables -P OUTPUT ACCEPT
 
 #per ripristinare le impostazioni precedenti
 
-iptables-restore < /root/firewall.rules
+#iptables-restore < /root/firewall.rules
