@@ -1,4 +1,4 @@
-sudo iptables-save > /root/firewall.rules
+sudo iptables-save > /tmp/firewall.rules
 sudo iptables -X
 sudo iptables -t nat -F
 sudo iptables -t nat -X
@@ -11,4 +11,4 @@ sudo iptables -P OUTPUT ACCEPT
 
 #per ripristinare le impostazioni precedenti
 
-#iptables-restore < /root/firewall.rules
+#iptables-restore < /tmp/firewall.rules
