@@ -2,7 +2,7 @@
 
 sudo apt install -y apache2 openssh-client openssh-server lvm2
 
-# configuro iptables
+# configuro iptables, però lo disabilito ed eseguo fwDisable.sh perchè non funziona -.-
 
 #regole in ingresso
 sudo iptables -A INPUT -i eth1 -p udp -m multiport --dports 5404,5405,5406 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT
