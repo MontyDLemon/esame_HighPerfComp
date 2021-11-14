@@ -1,0 +1,12 @@
+
+
+
+#per eseguire i file da github lanciare i seguenti comandi
+
+gir reset --hard && git pull
+
+#carico file con estensione sh
+sudo chmod +x *.sh
+
+#eseguo file
+#./nomefile
