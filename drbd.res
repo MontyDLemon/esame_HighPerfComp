@@ -21,10 +21,10 @@ resource webdata {
         syncer {
             verify-alg sha1;
         }
-        on giacomo1 {
-            address  10.0.2.15:7789;
+        on guest1 {
+            address  10.0.2.4:7789;
         }
-        on giacomo2 {
-            address  10.2.0.4:7789;
+        on guest2 {
+            address  10.2.0.5:7789;
         }
     }
