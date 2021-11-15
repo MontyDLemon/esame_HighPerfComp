@@ -28,3 +28,10 @@ resource webdata {
             address  10.2.0.5:7789;
         }
     }
+
+#Abbiamo appena creato una nuova risorsa chiamata webdata, la quale verrà salvata sulla partizione /dev/disk\_drbd/lv\_drbs. La risorsa utilizzerà TCP su porta 7789\footnote{In caso di problemi di connessione, assicurarsi che la porta sia aperta e non protetta da firewall.} per le connessioni e binding agli indirizzi IP scritti sopra.\\
+
+#Ora inizializziamo i metadati locali per questa nuova risorsa e portiamola in rete, eseguire:
+#sudo drbdadm create-md webdata
+#sudo drbdadm up webdata
+
