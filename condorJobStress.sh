@@ -5,6 +5,6 @@
 #stress --cpu 1 --timeout 15
 
 #uso invece il comando yes per aumentare il carico sulla cpu
-#il comando yes stampa y all'infinito, per evitare l'output a schermo lo rimando su /dev/null (cestino)
+#il comando yes stampa y all'infinito, per evitare l'output a schermo lo rimando su /dev/null (black-hole)
 
 yes > /dev/null
