@@ -3,7 +3,7 @@
 #sleep.sub -- simple sleep job
 
 
-executable = sleep.sh
+executable = condorJob.sh
 log = sleep.log
 output = outfile.txt
 error = errors.txt
