@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sleepTime="10"
+sleepTime="65"
 
 echo "sleeping for $sleepTime seconds."
 
