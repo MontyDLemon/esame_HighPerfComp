@@ -1,0 +1,15 @@
+#unix submit description file
+
+#sleep.sub -- simple sleep job
+
+
+#cambiare nome file in base a quello che voglio eseguire
+#da lanciare poi tramite condor_submit sleep.sub
+executable = condorJob.sh
+log = sleepRank.log
+output = outfile.txt
+error = errorsRank.txt
+should_transfer_files = Yes
+when_to_transfer_output = ON_EXIT
++Department = "Informatica"
+queue
