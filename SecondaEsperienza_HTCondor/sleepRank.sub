@@ -5,7 +5,7 @@
 
 #cambiare nome file in base a quello che voglio eseguire
 #da lanciare poi tramite condor_submit sleep.sub
-executable = condorJobRank.sh
+executable = condorJob.sh
 log = rank.log
 output = outfile.txt
 error = errorsRank.txt
