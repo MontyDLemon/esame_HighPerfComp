@@ -5,7 +5,7 @@
 
 #cambiare nome file in base a quello che voglio eseguire
 #da lanciare poi tramite condor_submit sleep.sub
-executable = condorNormalJob.sh
+executable = condorJobStress.sh
 log = sleep_normal.log
 output = outfile.txt
 error = errors.txt
