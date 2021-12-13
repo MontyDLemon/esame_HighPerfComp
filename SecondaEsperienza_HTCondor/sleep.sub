@@ -5,8 +5,8 @@
 
 #cambiare nome file in base a quello che voglio eseguire
 #da lanciare poi tramite condor_submit sleep.sub
-executable = condorJobStress.sh
-log = sleep_cpuTest.log
+executable = condorNormalJob.sh
+log = sleep_normal.log
 output = outfile.txt
 error = errors.txt
 should_transfer_files = Yes
